@@ -1,4 +1,4 @@
-public class Solution {
+public class Main {
     // public int singleNonDuplicate(int[] nums) {
     // int left = 0;
     // int right = nums.length - 1;
@@ -29,10 +29,10 @@ public class Solution {
 
     // Main method with test cases
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        Main sol = new Main();
 
         int[][] testCases = {
-                { 1, 1, 2, 3, 3, 4, 4, 8, 8 },
+                { 1, 1, 2, 3, 3, 4, 4, 8, 8, 10, 10, 11, 11 },
                 { 3, 3, 7, 7, 10, 11, 11 },
                 { 99 },
                 { 1, 1, 2, 2, 3, 3, 4 },
